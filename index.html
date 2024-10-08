@@ -916,8 +916,6 @@
                <div class="container">
                   <form
                      class="rd-mailform text-left"
-                     data-form-output="form-output-global"
-                     data-form-type="forms"
                      method="post"
                      action="https://formspree.io/f/myzygoyp"
                   >
@@ -934,7 +932,7 @@
                                  id="forms-name"
                                  type="text"
                                  name="name"
-                                 data-constraints="@Required"
+                                 required
                               />
                            </div>
                         </div>
@@ -949,8 +947,8 @@
                                  class="form-input"
                                  id="forms-phone"
                                  type="text"
-                                 name="last-name"
-                                 data-constraints="@Numeric @Required"
+                                 name="phone"
+                                 required
                               />
                            </div>
                         </div>
@@ -966,7 +964,7 @@
                                  id="forms-email"
                                  type="email"
                                  name="email"
-                                 data-constraints="@Email @Required"
+                                 required
                               />
                            </div>
                         </div>
@@ -981,7 +979,7 @@
                                  class="form-input"
                                  id="forms-message"
                                  name="message"
-                                 data-constraints="@Required"
+                                 required
                               ></textarea>
                            </div>
                         </div>
