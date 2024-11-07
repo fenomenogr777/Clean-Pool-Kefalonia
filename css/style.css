@@ -12321,4 +12321,14 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
    }
 }
 
+.social-fixed {
+   position: fixed;
+   top: 50%;
+   left: 2.4rem;
+   display: flex;
+   flex-direction: column;
+   gap: 2rem;
+   transform: translateY(-50%);
+   color: var(--gray);
+}
 /*# sourceMappingURL=style.css.map */
